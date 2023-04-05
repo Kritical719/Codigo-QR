@@ -10,6 +10,9 @@ function Persona(nombre ,apellido,email){
 
 
 let padre = new Persona('Juan','Perez','jperez@gmaill.com');
+padre.tel = '55443322';
+console.log(padre.tel);
+
 console.log(padre.nombreCompleto());
 
 let madre = new Persona('Laura','Quintero','lquintero@gmail.com');
@@ -21,4 +24,21 @@ padre.nombre = 'Carlos';
 console.log(padre);
 
 
-//QUEDAMOS CLASE 72 CONSTRUCCION DE OBJETOS
+let miObjeto = new Obeject();
+let miObjeto2 = {};
+
+
+let miCadena1 = new String('Hola');
+let miCadena2 = 'hola';
+
+let miNumero = new Number(1);
+let miNumero2 = 1;
+
+let miBoolean = new Boolean(false);
+let miBoolean2 = false;
+
+let miArray = new Array();
+let miArray2 = [];
+
+let miFuncion = new Function();
+let miFuncion2 = function() {};
